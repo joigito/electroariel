@@ -10,9 +10,9 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2024_05_05_042705) do
+ActiveRecord::Schema[7.1].define(version: 2024_05_13_133057) do
   create_table "customers", force: :cascade do |t|
-    t.float "dni"
+    t.integer "dni"
     t.string "apeynom"
     t.string "celular"
     t.datetime "created_at", null: false
